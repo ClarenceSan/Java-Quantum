@@ -6,11 +6,9 @@ echo Hello, %user_input%.
 CLS
 ECHO ============= HELP MENU =============
 ECHO -------------------------------------
-ECHO 1. Display this help menu
-ECHO 2. Another option
-ECHO 3. Yet another option
+ECHO 1. Display the Help Menu
 ECHO -------------------------------------
-ECHO 4. Exit
+ECHO 2. Exit
 ECHO -------------------------------------
 ECHO ========== PRESS 'Q' TO QUIT ==========
 ECHO.
@@ -24,7 +22,8 @@ REM Add more options here...
 :Help
 CLS
 ECHO ============= HELP MENU =============
-ECHO Put the help menu here later.
+ECHO Quantum Clock: Lorem Ipsum
+ECHO What we are doing: Lorem Ipsum
 ECHO -------------------------------------
 PAUSE > NUL
 GOTO MENU
